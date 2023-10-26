@@ -63,9 +63,9 @@ const Home = () => {
                                         <tbody>
                                             {
                                                 itemTrainingSheet?(
-                                                    itemTrainingSheet.map((element) => (
+                                                    itemTrainingSheet.map((element, indexEl) => (
                                                         item._id === element.trainingSheetId &&
-                                                        <tr>
+                                                        <tr key={indexEl}>
                                                             <td>{element.name}</td>
                                                             <td>{element.series}</td>
                                                             <td>{element.repetition}</td>
