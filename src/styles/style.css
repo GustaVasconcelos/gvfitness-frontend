@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+:root {
+    --primary-color: #FFDC63;
+    --primary-color-hover:#E5BF3C;
+    --secondary-color:#4F4F4F	;
+    --text:#333;
+    --error:#DC143C;
+    --success:#00FF7F;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p, span {
+    margin: 0;
+    padding: 0;
+    color: var(--texto);
+}
+

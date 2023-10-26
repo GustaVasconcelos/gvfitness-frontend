@@ -1,0 +1,101 @@
+.no-item {
+    width: 100%;
+    text-align: center;
+}
+.container-form-training-sheet {
+    margin: 15px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-training-sheet-message {
+    width: 85%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.container-training-sheets {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-training-sheets-card {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #4f4f4f 15%, #83687b, #ca7f87, #fca375, #ffdc63);
+}
+
+.training-sheets-name {
+    width: 330px;
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.training-sheets-name p {
+    background-color: var(--primary-color);
+    color: var(--text);
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.training-sheet-card {
+    width: 330px;
+    min-height: 250px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin-bottom: 30px;
+
+}
+
+.training-sheet-card table {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.training-sheet-card table thead{
+    width: 100%;
+}
+
+
+.training-sheet-card table thead tr {
+    width: 100%;
+    border: 2px solid #4f4f4f;
+}
+
+.training-sheet-card table thead tr th {
+    width: 33%;
+    height: 30px;
+}
+
+.training-sheet-card table tbody{
+    width: 100%;
+}
+
+
+.training-sheet-card table tbody tr {
+    width: 100%;
+}
+
+.training-sheet-card table tbody tr td {
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--secondary-color);
+}
