@@ -5,6 +5,8 @@ import PrivateRoute from "../services/wAuth.jsx";
 
 import Login from '../containers/login.jsx';
 import Home from '../containers/home.jsx';
+import Data from "../containers/data.jsx";
+
 const Content = () => {
     return (
         <main >
@@ -19,6 +21,17 @@ const Content = () => {
                         </PrivateRoute>
                     }
                 ></Route>
+                <Route
+                    exact
+                    path="/Dados"
+                    element={
+                        <PrivateRoute>
+                            <Data/>
+                        </PrivateRoute>
+                    }
+                >
+
+                </Route>
             </Routes>
         </main>
     )

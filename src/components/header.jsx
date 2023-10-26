@@ -1,7 +1,7 @@
 import '../styles/header.css';
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import { logout } from '../services/localStorage';
 const Header = () => {
 
     const [toggle, setToggle] = useState(false)
@@ -31,8 +31,9 @@ const Header = () => {
                 }
             </div>
             <div className={nav}>
-                <a href="#">Dados</a>
+                <a href="/Dados">Dados</a>
                 <a href="/Home">Fichas</a>
+                <a href="/" onClick={logout}>Desconectar</a>
             </div>
             
         </header>
