@@ -42,7 +42,7 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            <main>
+            <main className='margin-top'>
                 <div className="container-training-sheets">
                     {
                         trainingSheet? (
