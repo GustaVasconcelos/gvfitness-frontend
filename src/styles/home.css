@@ -37,7 +37,6 @@
 }
 
 .training-sheets-name {
-    width: 330px;
     height: 40px;
     display: flex;
     align-items: flex-start;
@@ -55,7 +54,7 @@
 }
 
 .training-sheet-card {
-    width: 330px;
+    width: 300px;
     min-height: 250px;
     border-radius: 6px;
     padding: 8px 0;
