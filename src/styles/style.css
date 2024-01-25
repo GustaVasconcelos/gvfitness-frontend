@@ -23,7 +23,7 @@ input[type="number"] {
 
 
 body {
-    background-color: var(--secondary-color);
+    background-color: #efefef;
 }
 a {
     text-decoration: none;
